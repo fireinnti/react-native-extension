@@ -114,6 +114,13 @@ Object {
   "code": "const layerWithShadow = {
   width: 100,
   height: 100,
+  shadowColor: colors.BLACK_50,
+  shadowOffset: {
+    width: 0,
+    height: 2
+  },
+  shadowRadius: 4,
+  shadowOpacity: 1,
   boxShadow: [
     {
       offsetX: 0,
@@ -123,14 +130,7 @@ Object {
       color: colors.BLACK_50,
       inset: false
     }
-  ],
-  shadowColor: colors.BLACK_50,
-  shadowOffset: {
-    width: 0,
-    height: 2
-  },
-  shadowRadius: 4,
-  shadowOpacity: 1
+  ]
 };",
   "language": "javascript",
 }
